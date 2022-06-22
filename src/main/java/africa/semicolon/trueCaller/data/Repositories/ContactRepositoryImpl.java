@@ -3,12 +3,14 @@ package africa.semicolon.trueCaller.data.Repositories;
 import africa.semicolon.trueCaller.data.models.Contact;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class ContactRepositoryImpl implements ContactRepository {
      private int count ;
      ArrayList<Contact>contacts = new ArrayList<>();
     @Override
     public Contact save(Contact contact) {
+//        if(contact.getId()!=0)updateContact()
         contact.setId(contacts.size()+1);
         contacts.add(contact);
         return contact;

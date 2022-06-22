@@ -118,11 +118,16 @@ class ContactRepositoryImplTest {
 
         Contact updateContact1=contactRepository.updateContact(1,contact);
         contact.setFirstName("luke");
+        Contact foundContactByName = contactRepository.findByFirstName("luke");
         Contact updateContact2=contactRepository.updateContact(2,contact1);
         contact1.setPhoneNumber("0802");
+        Contact foundContactPhoneNumber = contactRepository.findById(2);
 
         assertEquals("luke", updateContact1.getFirstName());
+        assertEquals("luke", foundContactByName.getFirstName());
         assertEquals("0802", updateContact2.getPhoneNumber());
+        assertEquals("0802", foundContactPhoneNumber.getPhoneNumber());
+
         assertEquals(3, contactRepository.count());
 
 

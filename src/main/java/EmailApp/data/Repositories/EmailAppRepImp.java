@@ -2,6 +2,8 @@ package EmailApp.data.Repositories;
 
 import EmailApp.data.models.Email;
 
+import java.util.Scanner;
+
 public class EmailAppRepImp implements EmailAppRep {
 
     @Override
@@ -10,23 +12,23 @@ public class EmailAppRepImp implements EmailAppRep {
     }
 
         @Override
-        public Email setDepartment () {
-        Email mail = new Email();
-             int choice = Integer.parseInt(("""
+        public String setDepartment () {
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("""
                     1.for Sales
                     2.for Development
                     3.for Accounting
                     4.for None
-                    """));
+                    """);
+            String choice= scanner.next();
             switch (choice) {
-                case 1 -> System.out.println("sales");
-                case 2-> System.out.println("Development");
-                case 3-> System.out.println("Accounting");
-                case 4 -> System.out.println(" ");
+                case "1" -> System.out.println("sales");
+                case "2"-> System.out.println("Development");
+                case "3"-> System.out.println("Accounting");
+                case "4" -> System.out.println(" ");
                 default -> System.out.println(-1);
             }
-
-            return mail;
+            return choice;
         }
 
         @Override

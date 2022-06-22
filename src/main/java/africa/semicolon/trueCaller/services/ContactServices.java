@@ -7,5 +7,6 @@ public interface ContactServices {
      Contact findById(int i)  ;
      Contact removeContact(Contact contact);
      Contact updateContact( int id,Contact contact);
+     Contact findByFirstName(String firstName);
 
 }

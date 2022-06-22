@@ -7,8 +7,8 @@ public class EmailAppMain {
     public static void main(String[] args) {
         EmailAppRep emailAppRep= new EmailAppRepImp();
         emailAppRep.createEmail("ola","bowale");
-//       Email mail=emailAppRep.setDepartment();
-//        System.out.println(mail);
+         String dept = emailAppRep.setDepartment();
+        System.out.println(dept);
      String rav=emailAppRep.randomPassword(10);
         System.out.println(rav);
     }

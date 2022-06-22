@@ -17,7 +17,7 @@ class ContactServicesImplTest {
     @BeforeEach
     void setUp() {
         contactRepository = new ContactRepositoryImpl();
-        contactServices = new ContactServicesImpl(contactRepository);
+        contactServices = new ContactServicesImpl();
 
     }
 
@@ -75,6 +75,7 @@ class ContactServicesImplTest {
         updateContact1.setFirstName("luke");
         Contact updateContact2 = contactServices.updateContact(2, new Contact("chris","kuma","0908"));
         updateContact2.setPhoneNumber("0802");
+
 
         assertEquals("luke", updateContact1.getFirstName());
         assertEquals("0802", updateContact2.getPhoneNumber());
