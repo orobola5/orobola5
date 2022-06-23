@@ -5,11 +5,13 @@ import africa.semicolon.trueCaller.services.ContactServicesImpl;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class ContactController {
-    private final ContactServices contactServices= new ContactServicesImpl();;
+    @Autowired
+    private  ContactServices contactServices;
     @PostMapping("/contact")
         public String addContact(@RequestBody RequestDto requestDto){
             contactServices.addContact(requestDto.getFirstName(), requestDto.getLastName(), requestDto.getPhoneNumber());

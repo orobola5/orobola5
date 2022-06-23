@@ -1,6 +1,7 @@
 package africa.semicolon.trueCaller.data.models;
 
 import lombok.*;
+import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 
@@ -10,8 +11,8 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @RequiredArgsConstructor
 @Document("Contacts")
 public class Contact {
-
-    private int id;
+    @Id
+    private String id;
     @NonNull
     private String firstName;
     @NonNull

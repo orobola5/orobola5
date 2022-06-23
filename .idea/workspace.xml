@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5dc1d779-b801-419a-b314-d8a9253002b6" name="Changes" comment="maven on some project">
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/services/NoContactException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/controllers/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/controllers/ContactController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/controllers/ContactController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/data/Repositories/ContactRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/data/Repositories/ContactRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/data/Repositories/ContactRepositoryImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/data/models/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/data/models/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/services/ContactServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/services/ContactServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/services/ContactServicesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/services/ContactServicesImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EmailApp/data/Repositories/EmailAppRepImpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EmailApp/data/Repositories/EmailAppRepImpTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/africa/semicolon/trueCaller/data/Repositories/ContactRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/trueCaller/data/Repositories/ContactRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/africa/semicolon/trueCaller/services/ContactServicesImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/trueCaller/services/ContactServicesImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +65,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="africa.semicolon.trueCaller.services" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -170,7 +180,7 @@
       <workItem from="1655838385603" duration="5260000" />
       <workItem from="1655873414386" duration="13572000" />
       <workItem from="1655909142954" duration="10683000" />
-      <workItem from="1655971575048" duration="8777000" />
+      <workItem from="1655971575048" duration="15747000" />
     </task>
     <task id="LOCAL-00001" summary="maven on some project">
       <created>1655877248238</created>
@@ -193,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655917734332</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="maven on some project">
+      <created>1655993216629</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655993216629</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
