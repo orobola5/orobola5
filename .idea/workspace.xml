@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5dc1d779-b801-419a-b314-d8a9253002b6" name="Changes" comment="maven on some project">
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/controllers/ContactController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/controllers/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EmailApp/data/Repositories/EmailAppRep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EmailApp/data/Repositories/EmailAppRep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EmailApp/data/Repositories/EmailAppRepImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EmailApp/data/Repositories/EmailAppRepImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EmailApp/data/models/EmailAppMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EmailApp/data/models/EmailAppMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/data/Repositories/ContactRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/data/Repositories/ContactRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/services/ContactServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/services/ContactServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/services/ContactServicesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/services/ContactServicesImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/africa/semicolon/trueCaller/data/Repositories/ContactRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/trueCaller/data/Repositories/ContactRepositoryImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/africa/semicolon/trueCaller/services/ContactServicesImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/trueCaller/services/ContactServicesImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/controllers/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/data/models/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/data/models/Contact.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,10 +49,12 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Users/admin",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "616e11c1df7dd061e1b436af7b29ae86"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -175,7 +169,8 @@
       <workItem from="1655832501216" duration="4857000" />
       <workItem from="1655838385603" duration="5260000" />
       <workItem from="1655873414386" duration="13572000" />
-      <workItem from="1655909142954" duration="7011000" />
+      <workItem from="1655909142954" duration="10683000" />
+      <workItem from="1655971575048" duration="8777000" />
     </task>
     <task id="LOCAL-00001" summary="maven on some project">
       <created>1655877248238</created>
@@ -191,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655877394542</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="maven on some project">
+      <created>1655917734332</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655917734332</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

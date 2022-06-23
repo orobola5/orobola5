@@ -8,6 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Main2 {
 //        private static final ContactController contactController = new ContactController();
         public static void main(String... args) {
+
             SpringApplication.run(Main2.class, args);
         }
     }
