@@ -1,7 +1,7 @@
-package africa.semicolon.trueCaller.data.Repositories;
+package Student.Management.App.Data.Repositories;
 
-import africa.semicolon.trueCaller.data.models.Contact;
-import africa.semicolon.trueCaller.data.models.Student;
+import Student.Management.App.Data.Models.Student;
+import Student.Management.App.Data.Repositories.StudentRepository;
 
 import java.util.ArrayList;
 
@@ -13,7 +13,7 @@ public class StudentRepositoryImpl implements StudentRepository {
 
     @Override
     public Student saveStudent(Student student) {
-        student.setId(students.size() + 1);
+        student.setId((long) (students.size() + 1));
             students.add(student);
             return student;
 
@@ -26,12 +26,12 @@ public class StudentRepositoryImpl implements StudentRepository {
     }
 
     @Override
-    public Student findByName(String name) {
-        Student student = new Student();
+    public ArrayList<Student> findByName(String name) {
+        Student student;
         for (Student value : students) {
             student = value;
             if (name.equals(student.getName()))
-                return student;
+                return  student;
         }
         throw new ArrayIndexOutOfBoundsException("index out of bound");
 

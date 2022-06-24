@@ -1,4 +1,4 @@
-//package africa.semicolon.trueCaller.data.Repositories;
+// package africa.semicolon.trueCaller.data.Repositories;
 //
 //import africa.semicolon.trueCaller.data.models.Contact;
 //import org.junit.jupiter.api.BeforeEach;
@@ -11,7 +11,7 @@
 //
 //    @BeforeEach
 //    public void setUp() {
-//        contactRepository = new ContactRepositoryImpl();
+//        contactRepository = new ContactRepository();
 //
 //    }
 //
@@ -74,8 +74,8 @@
 //        Contact savedContact = contactRepository.save(contact);
 //        Contact savedContact2 = contactRepository.save(contact1);
 //
-//        Contact foundContactByName = contactRepository.findByFirstName("sam");
-//        Contact secondContactByName = contactRepository.findByFirstName("abiola");
+//        Contact foundContactByName = (Contact) contactRepository.findByFirstName("sam");
+//        Contact secondContactByName = (Contact) contactRepository.findByFirstName("abiola");
 //
 //        assertEquals("sam", foundContactByName.getFirstName());
 //        assertEquals("abiola", secondContactByName.getFirstName());
@@ -107,32 +107,10 @@
 //        assertEquals(1,contactRepository.count());
 //
 //    }
-//    @Test void updateContact(){
-//        Contact contact = new Contact("sam","kufre","0806");
-//        Contact contact1 = new Contact("chris","kuma","0908");
-//        Contact contact2 = new Contact("ola","Abiola","0705");
 //
-//        Contact savedContact1 = contactRepository.save(contact);
-//        Contact savedContact2 = contactRepository.save(contact1);
-//        Contact savedContact3 = contactRepository.save(contact2);
-//
-//        Contact updateContact1=contactRepository.updateContact(1,contact);
-//        contact.setFirstName("luke");
-//        Contact foundContactByName = contactRepository.findByFirstName("luke");
-//        Contact updateContact2=contactRepository.updateContact(2,contact1);
-//        contact1.setPhoneNumber("0802");
-//        Contact foundContactPhoneNumber = contactRepository.findById(2);
-//
-//        assertEquals("luke", updateContact1.getFirstName());
-//        assertEquals("luke", foundContactByName.getFirstName());
-//        assertEquals("0802", updateContact2.getPhoneNumber());
-//        assertEquals("0802", foundContactPhoneNumber.getPhoneNumber());
-//
-//        assertEquals(3, contactRepository.count());
 //
 //
 //
 //
 //    }
 //
-//}
